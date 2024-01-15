@@ -1059,6 +1059,10 @@ nav[data-toggle="toc"] {
   }
 }
 
+.unloaded {
+  display: none !important;
+}
+
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
