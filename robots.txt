@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://Tongzhou0101.github.io/sitemap.xml
+Sitemap: https://tongzhou0101.github.io/sitemap.xml
