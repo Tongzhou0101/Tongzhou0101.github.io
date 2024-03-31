@@ -10,7 +10,9 @@ title={ArchLock: Locking {DNN} Transferability at the Architecture Level with a 
 author={Zhou, Tong and Ren, Shaolei and Xu, Xiaolin},
 booktitle={The Twelfth International Conference on Learning Representations},
 year={2024},
-url={https://openreview.net/forum?id=e2YOVTenU9},
+pdf={https://openreview.net/pdf?id=e2YOVTenU9},
+code={https://github.com/Tongzhou0101/ArchLock},
+abstract={Deep neural network (DNN) models are vulnerable to misuse by attackers who try to adapt them to other tasks. Existing defenses focus on model parameters, neglecting architectural-level defenses. This paper introduces ArchLock, a method utilizing neural architecture search (NAS) and zero-cost proxies to generate models with low transferability, hindering attackers' attempts. ArchLock maintains high performance on the original task while minimizing performance on potential target tasks.},
 selected={true}
 }
 
@@ -21,15 +23,18 @@ selected={true}
   booktitle={2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)},
   pages={1--9},
   year={2023},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10323746},
   organization={IEEE}
 }
 
 @inproceedings{peng2023autorep,
   abbr={ICCV},
   title={Autorep: Automatic relu replacement for fast private network inference},
-  author={Zhou*, Tong  and Peng*, Hongwu and Huang*, Shaoyi and  Luo, Yukui and Wang, Chenghong and Wang, Zigeng and Zhao, Jiahui and Xie, Xi and Li, Ang and Geng, Tony and others},
+  author={Peng*, Hongwu and Huang*, Shaoyi and Zhou*, Tong  and  Luo, Yukui and Wang, Chenghong and Wang, Zigeng and Zhao, Jiahui and Xie, Xi and Li, Ang and Geng, Tony and others},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   pages={5178--5188},
+  pdf={https://openaccess.thecvf.com/content/ICCV2023/papers/Peng_AutoReP_Automatic_ReLU_Replacement_for_Fast_Private_Network_Inference_ICCV_2023_paper.pdf},
+  code={https://github.com/HarveyP123/AutoReP},
   year={2023}
 }
 
@@ -45,6 +50,9 @@ selected={true}
   series = 	 {Proceedings of Machine Learning Research},
   month = 	 {23--29 Jul},
   publisher =    {PMLR},
+  pdf = {https://proceedings.mlr.press/v202/zhou23h/zhou23h.pdf},
+  code = {https://github.com/Tongzhou0101/NNSplitter},
+  abstract={NNSplitter is a novel IP protection scheme for DNN models, dividing them into an obfuscated portion stored in normal memory and model secrets stored in secure memory. The obfuscated model, with perturbed weights, hampers attackers' efforts, while authorized users accessing secure memory achieve high performance. This approach ensures protection against adaptive attacks, maintaining security for DNN models.},
   selected={true}
 }
 
@@ -52,9 +60,13 @@ selected={true}
   abbr={ICCAD},
   title={ObfuNAS: A Neural Architecture Search-based DNN Obfuscation Approach <span style="background-color: yellow;">(Best Paper Nomination)</span>},
   author={Zhou, Tong and Ren, Shaolei and Xu, Xiaolin},
+  award={Best Paper Nomination},
   booktitle={Proceedings of the 41st IEEE/ACM International Conference on Computer-Aided Design},
   pages={1--9},
   year={2022},
+  code = {https://github.com/Tongzhou0101/ObfuNAS},
+  pdf = {https://arxiv.org/pdf/2208.08569.pdf},
+  abstract= {ObfuNAS tackles the threat of malicious architecture extraction in DNN security. By converting architecture obfuscation into a neural architecture search problem, it ensures that obfuscated models perform worse than the original. },
   selected={true}
 }
 
@@ -64,5 +76,6 @@ selected={true}
   booktitle={2021 IEEE/ACM International Symposium on Nanoscale Architectures (NANOARCH)},
   pages={1--6},
   year={2021},
+  pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9642246},
   organization={IEEE}
 }
