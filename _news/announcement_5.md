@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our work **AdaPI** is accepted by **ICCAD2024**. It achieves adaptive private inference, efficiently ensuring model security and data privacy in edge computing.
+Our work **AdaPI** is accepted by **ICCAD 2024**. It achieves adaptive private inference, efficiently ensuring model security and data privacy in edge computing.
