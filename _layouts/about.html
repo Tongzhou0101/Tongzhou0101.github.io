@@ -43,7 +43,7 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -55,7 +55,7 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
@@ -72,6 +72,26 @@ layout: default
 
             </div>
           {%- endif %}
+
+          <!-- Map -->
+          <style>
+            .globe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 200px; 
+            margin: 0 auto; 
+            }
+            .globe-container canvas {
+            width: 100% !important; 
+            height: auto !important; 
+            }
+          </style>
+          <div class="globe-container">
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=250&t=tt&d=hOhBXTFiJaYoMCITFU4m6Ub6wCbAAicQCHfD14X-IJk&co=d3c2a9&cmo=877312&cmn=f2cf22'></script>
+          </div>
+
+
         </article>
 
 </div>
