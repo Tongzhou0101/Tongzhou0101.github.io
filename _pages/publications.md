@@ -1,8 +1,9 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /Publications/
+title: Publications
 description: 
+years: [2021, 2022, 2023, 2024]
 nav: true
 nav_order: 1
 ---
