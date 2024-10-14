@@ -42,10 +42,12 @@ layout: default
           </div>
 
           <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+          <div style="margin-top: 10px; margin-bottom: 20px;">
+            {% if page.news and site.announcements.enabled -%}
+              <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              {%- include news.html limit=true %}
+            {%- endif %}
+          </div>
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
