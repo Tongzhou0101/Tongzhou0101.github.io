@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-Our work **ArchLock** is accepted by **ICLR 2024**! 🎉 It defends against unauthorized transfer at the network's architecture level.
+Our work **ArchLock** is accepted by **ICLR 2024**! 🎉 It defends against unauthorized transfer/fine-tuning at the network's architecture level.
 
